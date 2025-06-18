@@ -10,8 +10,14 @@ public class Main {
     String[] name=new String[5];
     float[] marks=new float[5];
     Student[] students=new Student[5];
-    Student kunal;
-    System.out.println(Arrays.toString(students));
+    //Student kunal;
+    Student harshi=new Student();
+    harshi.rno=13;
+    harshi.name="harshitha";
+    harshi.marks=90.5f;
+    System.out.println(harshi.rno);
+    System.out.println(harshi.name);
+    System.out.println(harshi.marks);
 
 
   }
